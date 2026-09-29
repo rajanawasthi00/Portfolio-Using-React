@@ -45,7 +45,7 @@ const Form = () => {
 
           <div className="flex max-xs:flex-col max-xs:gap-4">
             <input
-              type="text"
+              type="number"
               placeholder="Budget*"
               className={`${commonClass} xs:w-[50%] me-5`}
               required

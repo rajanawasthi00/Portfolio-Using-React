@@ -20,8 +20,8 @@ const addressData = [
   },
   {
     icon: faPhone,
-    title: "Call Me Now",
-    description: "00-123 00000",
+    title: "Message Me Now",
+    description: "WhatsApp - 7753079485",
   },
 ];
 

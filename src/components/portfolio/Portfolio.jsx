@@ -1,39 +1,36 @@
 import Projects from "./Projects";
-import card1 from "../../assets/images/portfolio-images/card-11.png";
-import card2 from "../../assets/images/portfolio-images/card-2.jpg";
-import card3 from "../../assets/images/portfolio-images/card-3.jpg";
-import card4 from "../../assets/images/portfolio-images/card-4.png";
-import card5 from "../../assets/images/portfolio-images/card-5.png";
-import card6 from "../../assets/images/portfolio-images/card-6.png";
+import card1 from "../../assets/OIP.webp";
+import card2 from "../../assets/pro1.jpeg";
+import card3 from '../../assets/chatbot-collecting-feedback-1@2x.png'
 
 const projectData = [
-  {
-    id: 1,
-    image: card1,
-    category: "SEO EXEPERT ",
-    title: "SEO EXPERT AGENCY",
-    description:
-      "I focus on crafting smooth, seo agency website responsive interfaces that balance aesthetic appeal with practical functionality.",
-    link: "https://htmlcodex.com/demo/?item=2216",
-  },
-  {
-    id: 2,
-    image: card2,
-    category: "CAR RENT",
-    title: "CAR RENTED WEBSITE",
-    description:
-      "Designed an intuitive Car Rented Website With Online Booking dashboard for product management, emphasizing clarity and user efficiency.",
-    link: "https://htmlcodex.com/demo/?item=3387",
-  },
-  {
-    id: 3,
-    image: card3,
-    category: "PORTOFOLIO",
-    title: "PERSONAL PORTFOLIO WEBSITE",
-    description:
-      "Developed a modern personal portfolio website for developer with a focus on usability and seamless navigation for end users and so on.",
-    link: "https://htmlcodex.com/demo/?item=3433",
-  },
+ {
+  id: 1,
+  image: card1,
+  category: "SMM PANEL",
+  title: "AWASTRAX PANEL",
+  description:
+    "Built a complete SMM panel with user authentication, service search and filtering, order management, payment integration, order tracking, and multiple service API integrations.",
+  link: "https://awastraxpanel.com/",
+},
+{
+  id: 2,
+  image: card2,
+  category: "E-COMMERCE",
+  title: "PURNWALLA E-COMMERCE",
+  description:
+    "Built a full-stack e-commerce website with user authentication, OTP login/signup, product and order management, API integration, payment integration, and a responsive user experience.",
+  link: "https://purnawalla.com/",
+},
+{
+  id: 3,
+  image: card3,
+  category: "AI APPLICATION",
+  title: "PERSONA AI",
+  description:
+    "Developing an AI chatbot application with user authentication, customizable AI personas, chat history, profile management, and AI-powered conversations.",
+  link: "#",
+},
   // {
   //   id: 4,
   //   image: card4,

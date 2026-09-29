@@ -8,32 +8,29 @@ import TestimonialTemplate from "./TestimonialTemplate";
 import "./testimonial.css";
 
 const testimonialData = [
-  {
-    message:
-      "Working with this team was a fantastic experience. Their attention to detail and commitment to quality exceeded our expectations.",
-    quote: `From the initial consultation to the final delivery, every step was handled professionally. The end result was a product that not only met our needs but also impressed our stakeholders. Highly recommended!`,
-    name: "Esther Howard",
-    designation: "Managing Director, ABC Company",
-  },
-  {
-    message:
-      "Their expertise in UI/UX design helped us transform our digital presence and improve user engagement.",
-    quote: `The team demonstrated a deep understanding of our requirements and delivered a solution that was both visually appealing and highly functional. Communication was clear throughout the project.`,
-    name: "Ali Haider",
-    designation: "COO, XYZ Company",
-  },
-  {
-    message:
-      "Professional, reliable, and creative—everything you want in a development partner.",
-    quote: `They delivered our project on time and went above and beyond to ensure our satisfaction. The new features have made a significant difference for our users. We look forward to working together again.`,
-    name: "Elon Max",
-    designation: "Managing Director, KFC Company",
-  },
+
+{
+  message:
+    "Rajan understood our requirements clearly and delivered the project with a professional approach.",
+  quote:
+    "The communication throughout the project was smooth, and the final product matched our requirements. He was responsive to our feedback and made the necessary improvements during development.",
+  name: "Rahul",
+  designation: "AwastraX SMM Panel",
+},
+{
+  message:
+    "The project was delivered with good attention to functionality and user experience.",
+  quote:
+    "Working with Rajan was a good experience. He handled the development and technical requirements properly and was available when we needed updates or changes.",
+  name: "Krishna",
+  designation: "E-Commerce",
+}
+
 ];
 
 const Testimonial = () => {
   return (
-    <div className="flex mx-auto justify-center px-2 max-w-218 pb-10 md:pb-25">
+    <div className="flex mx-auto justify-center px-2 max-w-218 pb-10 pt-10 md:pb-25">
       <div className="w-full h-full cursor-grab">
         <p className="section-title mb-6 text-center">Testimonial</p>
         <Swiper
